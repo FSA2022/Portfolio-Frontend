@@ -1,0 +1,339 @@
+/*.card-border {
+    border: solid 0.5px rgb(150, 150, 150);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all ease-in-out 0.2s;
+}
+
+.card-border:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (min-width: 2560px) {
+    #tit {
+        width: 160rem;
+    }
+    #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        position: relative;
+        text-align: left;
+        font-size: 35px;
+        padding-left: 45px;
+    }
+    button {
+        font-size: 15px;
+    }
+    #btnAñadir {
+        position: absolute;
+        left: 80%;
+        top: 5px;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+    #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        position: relative;
+        text-align: left;
+        font-size: 35px;
+        padding-left: 45px;
+    }
+    button {
+        font-size: 15px;
+    }
+    #btnAñadir {
+        position: absolute;
+        top: 5px;
+        left: 79%;
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1439px) {
+    #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        position: relative;
+        text-align: left;
+        font-size: 35px;
+        padding-left: -45px;
+    }
+    #body h6 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    button {
+        font-size: 15px;
+    }
+    #btnAñadir {
+        position: absolute;
+        left: 82%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        position: relative;
+        text-align: left;
+        font-size: 30px;
+        padding-left: -45px;
+    }
+    button {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 25px;
+        padding-left: -90px;
+    }
+    #cardpro {
+        width: 350px;
+    }
+    button {
+        font-size: 11px;
+    }
+    #btnAñadir {
+        position: absolute;
+        left: 70%;
+    }
+    #body h6 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    #imgPro {
+        position: relative;
+        padding-top: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .alert-heading {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    #tit {
+        box-shadow: 3px 3px 3px grey;
+    }
+    #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        position: relative;
+        text-align: left;
+        font-size: 20px;
+        padding-left: -45px;
+    }
+    button {
+        font-size: 11px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    #btnAñadir {
+        position: absolute;
+        text-align: right;
+        padding-right: 5px;
+    }
+    .card #body {
+        position: relative;
+        padding-top: 20px;
+        left: -5px;
+    }
+    #body h6 {
+        font-size: 13px;
+        padding-top: 5px;
+    }
+    .fa {
+        font-size: 10px;
+    }
+    .card #btnEditar {
+        padding-right: 33px;
+        margin-top: -25px;
+    }
+    #btnEliminar {
+        position: absolute;
+        margin-left: 86%;
+        margin-top: -25px;
+    }
+    #imgPro {
+        position: relative;
+        padding-top: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .alert-heading {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    #tit {
+        box-shadow: 3px 3px 3px grey;
+    }
+    #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        position: relative;
+        text-align: left;
+        font-size: 20px;
+        padding-left: -45px;
+    }
+    button {
+        font-size: 11px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    #btnAñadir {
+        position: absolute;
+        text-align: right;
+        padding-right: 5px;
+    }
+    .card #body {
+        position: relative;
+        padding-top: 20px;
+        left: -5px;
+    }
+    #body h6 {
+        font-size: 13px;
+        padding-top: 5px;
+    }
+    .fa {
+        font-size: 10px;
+    }
+    .card #btnEditar {
+        padding-right: 33px;
+        margin-top: -25px;
+    }
+    #btnEliminar {
+        position: absolute;
+        margin-left: 86%;
+        margin-top: -25px;
+    }
+    #imgPro {
+        position: relative;
+        padding-top: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .alert-heading {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) and (orientation: portrait) {
+    #tit {
+        box-shadow: 3px 3px 3px grey;
+    }
+    #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        position: relative;
+        text-align: left;
+        font-size: 17px;
+        padding-left: -45px;
+    }
+    button {
+        font-size: 10px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    #btnAñadir {
+        position: absolute;
+        text-align: right;
+        padding-right: 5px;
+    }
+    .card #body {
+        position: relative;
+        padding-top: 20px;
+        left: -5px;
+    }
+    #body h6 {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    .fa {
+        font-size: 10px;
+    }
+    .card #btnEditar {
+        padding-right: 33px;
+        margin-top: -25px;
+    }
+    #btnEliminar {
+        position: absolute;
+        margin-left: 86%;
+        margin-top: -25px;
+    }
+    #imgPro {
+        position: relative;
+        padding-top: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .alert-heading {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 320px) and (orientation: landscape) {
+    #tit {
+        box-shadow: 3px 3px 3px grey;
+    }
+    #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        position: relative;
+        text-align: left;
+        font-size: 17px;
+        padding-left: -45px;
+    }
+    button {
+        font-size: 10px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    #btnAñadir {
+        position: absolute;
+        text-align: right;
+        padding-right: 5px;
+    }
+    #cardpro {
+        width: 250px;
+    }
+    .card #body {
+        position: relative;
+        padding-top: 20px;
+        left: -5px;
+    }
+    #body h6 {
+        font-size: 12px;
+        margin: 5px;
+    }
+    .fa {
+        font-size: 10px;
+    }
+    .card #btnEditar {
+        padding-right: 33px;
+        margin-top: -20px;
+    }
+    #btnEliminar {
+        position: absolute;
+        margin-left: 86%;
+        margin-top: -20px;
+    }
+    .card #imgPro {
+        position: relative;
+        padding-top: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .alert-heading {
+        font-size: 13px;
+    }
+}
+*/

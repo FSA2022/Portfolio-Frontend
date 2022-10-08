@@ -1,0 +1,1239 @@
+@media screen and (min-width: 2560px) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        width: 120%;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 100%;
+        margin-top: -860px;
+    }
+    .homeLogin .home-content-login .carousel .banner {
+        width: 100%;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 1950px;
+        margin-top: -430px;
+        padding-bottom: 60px;
+        width: 350px;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 75px;
+        font-weight: 600;
+        margin-top: -520px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 40px;
+        font-weight: 600;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 20px;
+        margin-left: 70px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -240px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 1900px;
+        font-size: 27px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 20px;
+        margin-left: 230px;
+        margin-top: -80px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        width: 102%;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 180%;
+        margin-top: -200px;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 950px;
+        margin-top: -430px;
+        padding-bottom: 60px;
+        width: 350px;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 75px;
+        font-weight: 600;
+        margin-top: -520px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 40px;
+        font-weight: 600;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 20px;
+        margin-left: 5px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -220px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 900px;
+        font-size: 18px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 20px;
+        margin-left: 165px;
+        margin-top: -80px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1439px) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 100%;
+        margin-top: -250px;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 850px;
+        margin-top: -430px;
+        padding-bottom: 60px;
+        width: 350px;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 75px;
+        font-weight: 600;
+        margin-top: -520px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 40px;
+        font-weight: 600;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 16px;
+        margin-left: 5px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -210px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 800px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 15px;
+        margin-left: 145px;
+        margin-top: -80px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1365px) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        width: 100%;
+        height: 90vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 100%;
+        margin-top: -270px;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 850px;
+        margin-top: -430px;
+        padding-bottom: 60px;
+        width: 350px;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 75px;
+        font-weight: 600;
+        margin-top: -520px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 40px;
+        font-weight: 600;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 16px;
+        margin-left: 5px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -210px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 800px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 15px;
+        margin-left: 145px;
+        margin-top: -80px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1359px) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        width: 145%;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 100%;
+        margin-top: -200px;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 650px;
+        margin-top: -430px;
+        padding-bottom: 60px;
+        width: 350px;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 55px;
+        font-weight: 600;
+        margin-top: -520px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 33px;
+        font-weight: 600;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 25px;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 16px;
+        margin-left: 5px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -220px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 600px;
+        font-size: 17px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 15px;
+        margin-left: 125px;
+        margin-top: -80px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1023px) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        width: 100%;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 100%;
+        margin-top: -350px;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 635px;
+        margin-top: -390px;
+        padding-bottom: 60px;
+        width: 300px;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: -380px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 16px;
+        margin-left: 5px;
+        top: -10px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -210px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 610px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 15px;
+        margin-left: 125px;
+        margin-top: -90px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        width: 100%;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 100%;
+        margin-top: -200px;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 380px;
+        margin-top: -360px;
+        padding-bottom: 60px;
+        width: 350px;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: -540px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 16px;
+        margin-left: 5px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -310px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 350px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 15px;
+        margin-left: 115px;
+        margin-top: -80px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) and (orientation: portrait) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        width: 100%;
+        height: 90vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 100%;
+        margin-top: -100px;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 220px;
+        top: -475px;
+        width: 160px;
+        height: 160px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 55px;
+        font-weight: 600;
+        margin-top: -515px;
+        margin-left: 60px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 33px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 80px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 25px;
+        font-weight: 600;
+        margin-left: 115px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 16px;
+        margin-left: 225px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -160px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 540px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 15px;
+        margin-left: 345px;
+        margin-top: -80px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 574px) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        width: 355%;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 100%;
+        margin-top: -200px;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 160px;
+        top: -360px;
+        width: 100px;
+        height: 120px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: -500px;
+        margin-left: 60px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 75px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 95px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 16px;
+        top: -10px;
+        margin-left: 140px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -150px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 380px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 15px;
+        margin-left: 255px;
+        margin-top: -85px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 424px) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        width: 100%;
+        height: 90vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 100%;
+        margin-top: -150px;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 155px;
+        top: -360px;
+        width: 100px;
+        height: 120px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: -510px;
+        margin-left: 55px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 75px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 95px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 16px;
+        top: -10px;
+        margin-left: 140px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -150px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 360px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 15px;
+        margin-left: 275px;
+        margin-top: -95px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 389px) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        width: 405%;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 100%;
+        margin-top: -200px;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 140px;
+        top: -360px;
+        width: 100px;
+        height: 120px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: -520px;
+        margin-left: 30px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 45px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 65px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 16px;
+        top: -20px;
+        margin-left: 110px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -170px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 330px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 15px;
+        margin-left: 235px;
+        top: -65px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        width: 475%;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 100%;
+        margin-top: -200px;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 130px;
+        top: -340px;
+        width: 100px;
+        height: 120px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: -510px;
+        margin-left: 55px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 17px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 70px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 80px;
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 16px;
+        top: -20px;
+        margin-left: 110px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -170px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 310px;
+        font-size: 15px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 15px;
+        margin-left: 230px;
+        top: -65px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 359px) and (orientation: portrait) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        width: 475%;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 100%;
+        margin-top: -200px;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 110px;
+        top: -335px;
+        width: 100px;
+        height: 120px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: -520px;
+        margin-left: 25px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 17px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 40px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 50px;
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 16px;
+        top: -20px;
+        margin-left: 85px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -170px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 275px;
+        font-size: 15px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 15px;
+        margin-left: 205px;
+        top: -65px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 320px) and (orientation: landscape) {
+    .homeLogin {
+        display: flex;
+        background: no-repeat center;
+        width: 100%;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .homeLogin #max-width-login {
+        width: 100%;
+        margin-top: -400px;
+    }
+    .homeLogin .home-content-login #fotoperfil {
+        position: relative;
+        left: 410px;
+        margin-top: -250px;
+        padding-bottom: 60px;
+        width: 250px;
+    }
+    .homeLogin .max-width-login .row {
+        margin-right: 0;
+    }
+    .homeLogin .home-content-login #text-1-login {
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: -440px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-2-login {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login #text-3-login {
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+        position: relative;
+    }
+    .homeLogin .home-content-login .btn-acerca-login a {
+        font-size: 16px;
+        top: -20px;
+        margin-left: 40px;
+        position: relative;
+        color: #fff;
+    }
+    .homeLogin .home-content-login .card {
+        position: relative;
+        top: -280px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 48, 48);
+        text-align: justify;
+        width: 370px;
+        font-size: 15px;
+    }
+    .homeLogin .home-content-login .btn-edit-login a {
+        font-size: 15px;
+        margin-left: 180px;
+        top: -64px;
+        position: relative;
+    }
+    .homeLogin .home-content-login #acerca {
+        display: inline-block;
+        background: transparent;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 0px solid rgb(114, 108, 109);
+        transition: all 0.3s ease;
+    }
+    .homeLogin .home-content-login a:hover {
+        color: rgb(124, 117, 117);
+        font-weight: 400;
+    }
+}

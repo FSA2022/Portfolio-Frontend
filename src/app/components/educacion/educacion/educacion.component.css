@@ -1,0 +1,494 @@
+/*.card-border {
+    border: solid 0.5px rgb(150, 150, 150);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-in-out 0.2s;
+}
+
+.card-border:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (min-width: 2560px) {
+    .card #titulo {
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+        font-weight: bold
+    }
+    .card {
+        width: 100%;
+    }
+    #imagenEdu {
+        position: absolute;
+        width: 120px;
+        box-shadow: 3px 3px 3px grey;
+        border-radius: 100px;
+        left: 80px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .card #btnAñadir {
+        position: absolute;
+        margin-left: 80%;
+        top: 5px;
+    }
+    .container #btnEditar {
+        position: absolute;
+        padding-top: 10px;
+        margin-left: 71%;
+    }
+    .container #btnEliminar {
+        position: absolute;
+        padding-top: 10px;
+        margin-left: 79%;
+    }
+    #info {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+    .card #titulo {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-weight: bold
+    }
+    #imagenEdu {
+        position: absolute;
+        width: 120px;
+        box-shadow: 3px 3px 3px grey;
+        border-radius: 100px;
+        left: 80px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .card #btnAñadir {
+        position: absolute;
+        margin-left: 81%;
+    }
+    .container #btnEditar {
+        position: absolute;
+        margin-left: 78%;
+    }
+    .container #btnEliminar {
+        position: absolute;
+        margin-left: 86%;
+    }
+    #info {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1439px) {
+    .card #titulo {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-weight: bold
+    }
+    #imagenEdu {
+        position: absolute;
+        width: 120px;
+        box-shadow: 3px 3px 3px grey;
+        border-radius: 100px;
+        left: 80px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .card #btnAñadir {
+        position: absolute;
+        left: 76%;
+    }
+    .container #btnEditar {
+        position: absolute;
+        padding-top: 10px;
+        margin-left: 70%;
+    }
+    .container #btnEliminar {
+        position: absolute;
+        padding-top: 10px;
+        margin-left: 79%;
+    }
+    #info {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .card #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        position: relative;
+        text-align: left;
+        font-size: 30px;
+        margin-left: -45px;
+    }
+    #imagenEdu {
+        position: absolute;
+        width: 120px;
+        box-shadow: 3px 3px 3px grey;
+        border-radius: 100px;
+        left: 40px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .card #btnAñadir {
+        position: absolute;
+        left: 74%;
+    }
+    #btnEditar {
+        position: absolute;
+        padding-top: 10px;
+        margin-left: 74%;
+        top: -10px
+    }
+    #btnEliminar {
+        position: absolute;
+        padding-top: 10px;
+        margin-left: 85%;
+        top: -10px
+    }
+    #info {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    button {
+        font-size: 11px;
+    }
+    .card #btnAñadir {
+        position: absolute;
+        left: 66%;
+    }
+    #imagenEdu {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+        left: 10%;
+        top: 10px;
+    }
+    #btnEditar {
+        position: absolute;
+        margin-left: 67%;
+        top: -10px
+    }
+    #btnEliminar {
+        position: absolute;
+        margin-left: 82%;
+        top: -10px
+    }
+    .card #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        position: relative;
+        text-align: left;
+        font-size: 25px;
+        margin-left: -45px;
+    }
+    #info {
+        font-size: 15px;
+    }
+    #info h5 {
+        font-size: 15px;
+    }
+    .alert-heading {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+    button {
+        font-size: 11px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    #tit {
+        box-shadow: 3px 3px 3px grey;
+    }
+    .card {
+        box-shadow: 3px 3px 3px grey;
+    }
+    .card-border {
+        height: 120px;
+    }
+    .card #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: -45px;
+    }
+    .card #btnAñadir {
+        position: absolute;
+        margin-left: 58%;
+    }
+    #imagenEdu {
+        position: relative;
+        width: 90px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+        left: 2%;
+        top: 15px;
+    }
+    .fa {
+        font-size: 10px;
+    }
+    #btnEditar {
+        position: absolute;
+        margin-left: 68%;
+        top: 25px;
+    }
+    #btnEliminar {
+        position: absolute;
+        margin-left: 86%;
+        padding-top: 25px;
+    }
+    #info {
+        margin-left: 95px;
+        font-size: 12px;
+        margin-top: -75px;
+    }
+    #info h5 {
+        font-size: 12px;
+    }
+    .alert-heading {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 574px) {
+    button {
+        font-size: 11px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    #tit {
+        box-shadow: 3px 3px 3px grey;
+    }
+    .card {
+        box-shadow: 3px 3px 3px grey;
+    }
+    .card-border {
+        height: 120px;
+    }
+    .card #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: -45px;
+    }
+    .card #btnAñadir {
+        position: absolute;
+        margin-left: 58%;
+    }
+    #imagenEdu {
+        position: relative;
+        width: 90px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 15px;
+    }
+    .fa {
+        font-size: 10px;
+    }
+    #btnEditar {
+        position: absolute;
+        margin-left: 63%;
+        top: 25px;
+    }
+    #btnEliminar {
+        position: absolute;
+        margin-left: 86%;
+        padding-top: 25px;
+    }
+    #info {
+        margin-left: 95px;
+        font-size: 12px;
+        margin-top: -75px;
+    }
+    #info h5 {
+        font-size: 12px;
+    }
+    .alert-heading {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    button {
+        font-size: 11px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    #tit {
+        box-shadow: 3px 3px 3px grey;
+    }
+    .card {
+        box-shadow: 3px 3px 3px grey;
+    }
+    .card-border {
+        height: 120px;
+    }
+    .card #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: -45px;
+    }
+    .card #btnAñadir {
+        position: absolute;
+        margin-left: 54%;
+    }
+    #imagenEdu {
+        position: relative;
+        width: 80px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+        left: 5%;
+        top: 10px;
+    }
+    .fa {
+        font-size: 10px;
+    }
+    #btnEditar {
+        position: absolute;
+        margin-left: 56%;
+        top: 31px;
+    }
+    #btnEliminar {
+        position: absolute;
+        margin-left: 83%;
+        padding-top: 31px;
+    }
+    #info {
+        margin-left: 95px;
+        font-size: 12px;
+        margin-top: -85px;
+    }
+    #info h5 {
+        font-size: 12px;
+    }
+    .alert-heading {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) and (orientation: portrait) {
+    button {
+        font-size: 10px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    #tit {
+        box-shadow: 3px 3px 3px grey;
+    }
+    .card {
+        box-shadow: 3px 3px 3px grey;
+    }
+    .card-border {
+        height: 120px;
+    }
+    .card #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 17px;
+        margin-left: -45px;
+    }
+    .card #btnAñadir {
+        position: absolute;
+    }
+    #imagenEdu {
+        position: relative;
+        width: 80px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+        left: 5%;
+        top: 10px;
+    }
+    .fa {
+        font-size: 10px;
+    }
+    #btnEditar {
+        position: absolute;
+        margin-left: 57%;
+        top: 30px;
+    }
+    #btnEliminar {
+        position: absolute;
+        margin-left: 85%;
+        padding-top: 30px;
+    }
+    #info {
+        margin-left: 95px;
+        font-size: 10px;
+        margin-top: -70px;
+    }
+    #info h5 {
+        font-size: 10px;
+    }
+    .alert-heading {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 320px) and (orientation: landscape) {
+    button {
+        font-size: 10px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    #tit {
+        box-shadow: 3px 3px 3px grey;
+    }
+    .card {
+        box-shadow: 3px 3px 3px grey;
+    }
+    .card-border {
+        height: 120px;
+    }
+    .card #titulo {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 17px;
+        margin-left: -45px;
+    }
+    .card #btnAñadir {
+        position: absolute;
+    }
+    #imagenEdu {
+        position: relative;
+        width: 90px;
+        height: 90px;
+        border-radius: 100px;
+        box-shadow: 3px 3px 3px grey;
+        left: 2%;
+        top: 15px;
+    }
+    .fa {
+        font-size: 10px;
+    }
+    #btnEditar {
+        position: absolute;
+        margin-left: 72%;
+        top: 30px;
+    }
+    #btnEliminar {
+        position: absolute;
+        margin-left: 90%;
+        padding-top: 30px;
+    }
+    #info {
+        margin-left: 95px;
+        font-size: 12px;
+        margin-top: -80px;
+    }
+    #info h5 {
+        font-size: 12px;
+    }
+    .alert-heading {
+        font-size: 13px;
+    }
+}
+*/

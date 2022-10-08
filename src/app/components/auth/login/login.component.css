@@ -1,0 +1,48 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: rgb(115, 142, 218);
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 768px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+#show_password {
+    width: 44px;
+    height: 40px;
+    float: right;
+    position: relative;
+    margin: -40px 0 0 387px;
+    cursor: pointer;
+}
+
+
+/*@media screen and (min-width: 320px) and (max-width: 768px) and (orientation: portrait) {
+    img {
+        margin-top: -20px;
+    }
+    form {
+        margin-top: -75px;
+    }
+    #btnLogin {
+        margin-top: -10px;
+    }
+    #redes {
+        margin-top: -20px;
+    }
+}*/

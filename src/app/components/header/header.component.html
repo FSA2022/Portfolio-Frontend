@@ -1,0 +1,113 @@
+<section class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 homeLogin" id="homeLogin" *ngFor="let persona of personas">
+    <div class="max-width-login" id="max-width-login">
+        <div class="home-content-login ">
+
+            <div class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid w-100" src={{persona.fotobanner}} class="banner" alt="fondo">
+                    </div>
+                </div>
+            </div>
+            <div class="text-1-login" id="text-1-login">{{persona.nombre}} {{persona.apellido}}</div>
+            <div class="text-2-login" id="text-2-login">{{persona.titulo}}</div>
+            <div class="text-3-login" id="text-3-login">{{persona.ciudad}} - {{persona.provincia}}</div>
+
+
+            <div class="btn-acerca-login">
+                <a class="btn btn-info " id="acerca" data-bs-toggle="collapse" href="#acercademi" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Acerca de mí
+          </a>
+            </div>
+            <div class="btn-edit-login" title="Editar Perfil" *ngIf="authority === 'admin'">
+                <a (click)="onOpenModal('edit', persona)" class="btn" id="btnEditar" data-bs-placement="top" data-bs-toggle="tooltip" data-bs-original-title="Edit">
+                    <i class="fa fa-pencil" style="color:aliceblue"></i>
+                </a>
+            </div>
+            <div class="btn-edit mb-1" *ngIf="authority === 'user'">
+                <a>
+                    <i class="fa fa-pencil"></i>
+                </a>
+            </div>
+
+            <div class="fotoperfil">
+                <img src={{persona.fotoperfil}} class="fotoPerfil img-fluid" alt="Francisco" id="fotoperfil">
+            </div>
+
+            <div class="collapse collapse-horizontal " id="acercademi">
+                <div class="card card-body" id="card">
+                    {{persona.descripcion}}
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+<div class="row g-0 edu main-container">
+
+    <!--Modal editar-->
+
+    <div class="modal fade" id="editPersonaModal" tabindex="-1" data-bs-target="#exampleModal" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-header" style="text-align: center;">
+                    <h5 class="modal-title" id="exampleModalLabel">Editar Perfil | <span style="font-weight: bold;">{{editPersona?.nombre}} {{editPersona?.apellido}}</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form #editForm="ngForm" novalidate>
+                        <input type="hidden" ngModel={{editPersona?.id}} name="id" class="form-control" id="id">
+                        <div class="form-group ">
+                            <label for="nombre" style="font-weight: bold;">Nombre</label>
+                            <input class="form-control" type="text" name="nombre" id="nombre" ngModel={{editPersona?.nombre}} required>
+                        </div>
+                        <div class="form-group ">
+                            <label for="apellido" style="font-weight: bold;">Apellido</label>
+                            <input class="form-control" type="text" name="apellido" id="apellido" ngModel={{editPersona?.apellido}} required>
+                        </div>
+                        <div class="form-group">
+                            <label for="titulo" style="font-weight: bold;">Titulo</label>
+                            <input class="form-control" type="text" name="titulo" id="titulo" ngModel={{editPersona?.titulo}} required>
+                        </div>
+                        <div class="form-group">
+                            <label for="ciudad" style="font-weight: bold;">Ciudad</label>
+                            <input class="form-control" type="text" name="ciudad" id="ciudad" ngModel={{editPersona?.ciudad}} required>
+                        </div>
+                        <div class="form-group">
+                            <label for="provincia" style="font-weight: bold;">Provincia</label>
+                            <input class="form-control" type="text" name="provincia" id="provincia" ngModel={{editPersona?.provincia}} required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fotoperfil" style="font-weight: bold;">Foto Perfil</label>
+                            <input class="form-control" type="text" name="fotoperfil" id="fotoPerfil" ngModel={{editPersona?.fotoperfil}} required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name" style="font-weight: bold;">Imagen Banner</label>
+                            <input class="form-control" type="text" name="fotobanner" id="fotobanner" ngModel={{editPersona?.fotobanner}} required>
+                        </div>
+                        <div class="form-group">
+                            <label for="descripcion" style="font-weight: bold;">Descripcion</label>
+                            <textarea class="form-control" type="text" name="descripcion" id="descripcion" ngModel={{editPersona?.descripcion}} required></textarea>
+                        </div>
+
+                    </form>
+
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" id="" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cerrar</button>
+                    <button (click)="onEditarPersona(editForm.value, editPersona!.id)" class="btn btn-primary btn-sm" data-bs-dismiss="modal" [disabled]="!editForm.valid">Actualizar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Fin modal-->
+</div>

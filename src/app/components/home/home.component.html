@@ -1,0 +1,31 @@
+<div *ngIf="isLogged; else loggedOut">
+    <app-navbar></app-navbar>
+    <app-header></app-header>
+    <app-experiencia></app-experiencia>
+
+    <app-educacion></app-educacion>
+    <app-hard-and-soft-skill></app-hard-and-soft-skill>
+    <app-proyecto></app-proyecto>
+    <app-footer></app-footer>
+
+
+</div>
+<ng-template #loggedOut>
+    <!-- home section start -->
+
+    <section class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 home" id="home">
+        <div class="max-width">
+            <div class="home-content ">
+                <div class="text-1"></div>
+                <div class="text-2">Francisco Almiron</div>
+                <div class="text-3">Full Stack Junior Developer </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <app-footer class="fixed-bottom pie"></app-footer>
+
+
+</ng-template>

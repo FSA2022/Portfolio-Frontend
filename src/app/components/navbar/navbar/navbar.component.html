@@ -1,0 +1,118 @@
+<!-- Nav Bar Start bg-primary -->
+<nav class="navbar navbar-expand-lg navbar-dark  fixed-top ">
+
+    <div class="container-fluid">
+
+        <a class="navbar-brand "><img width="120" alt="Logo Argentina Programa" src="./assets/img/APLogo.png" /> <span class="m-2" id="navtitu">#YO PROGRAMO</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav  ms-auto">
+                <li class="nav-item  me-2">
+                    <a aria-label="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/francisco-almiron" title="LinkedIn">
+                        <svg id="Linkedin-logo" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#FFFFFF">
+  <path d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" /></svg>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a aria-label="GitHub" target="_blank" rel="noopener" href="https://github.com/FSA2022/" title="GitHub">
+                        <svg id="GitHub-logo" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#FFFFFF">
+    <path d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"/>
+    </svg>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a aria-label="Facebook" target="_blank" rel="noopener" href="https://facebook.com/franciscoalmiron2012" title="Facebook">
+                        <svg id="Facebook-logo" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112" fill="#FFFFFF">
+    <path d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"/>
+    </svg>
+                    </a>
+                </li>
+                <li *ngIf="!isLogin" class="nav-item active">
+                    <a class="nav-link  " href="login" data-bs-toggle="modal" data-bs-target="#exampleModal">Iniciar Sesión</a>
+                </li>
+                <li *ngIf="isLogin" class="nav-item">
+                    <img class="foto-nav" width="50" alt="Logo Argentina Programa" src="../../../../assets/img/perfil_sin_fondo.png" />
+                </li>
+                <li *ngIf="isLogin" class="nav-item">
+                    <a class="nav-link  " (click)="logOut()" style="cursor: pointer;">Cerrar Sesión</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+</nav>
+<!-- Nav Bar End -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+
+            <div class="divider d-flex  align-items-center justify-content-center my-4 ">
+                <p class="lead fw-bold mx-3 mt-1 mb-0">INICIAR SESION</p>
+            </div>
+
+            <div class="modal-body">
+
+                <div *ngIf="!isLogged" class="container-fluid h-custom">
+
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="col-md-9 col-lg-6 col-xl-5">
+                            <img src="../../../../assets/img/draw2.webp" class="img-fluid" alt="Sample image">
+                            <div class="divider d-flex text-center align-items-center justify-content-center my-1 ">
+                                <p class="lead fw-bold mx-3 mb-0" Style="font-size:12px;">Francisco Almirón | Argentina Programa #Yo Programo 2022</p>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                            <form class="custom-form" name="form" #f="ngForm" novalidate (ngSubmit)="onLogin()">
+                                <div class="form-group mb-4">
+                                    <label id="label" for="nombreUsuario">Nombre de Usuario: </label>
+                                    <input type="text" class="form-control" name="nombreusuario" placeholder="Nombre de usuario = user" [(ngModel)]="form.nombreUsuario" autocomplete="off" required>
+                                </div>
+                                <div class="form-group mb-4">
+                                    <label id="label" for="password">Contraseña: </label>
+                                    <input type="password" ID="txtPassword" class="form-control" placeholder="Contraseña = user" name="password" [(ngModel)]="form.password" autocomplete="off" required>
+                                    <div class="input-group-append">
+                                        <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
+
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="form-group text-center text-lg-center mt-3 pt-2">
+                                        <button type="submit" id="btnLogin" class="btn btn-primary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem; margin-bottom: 2.5rem;" [disabled]="!f.valid">Login</button>
+
+                                    </div>
+                                    <div class="text-center" id="redes">
+                                        <a href="https://www.linkedin.com/in/francisco-almiron" target="_blank" class="text-white me-4">
+                                            <i class="fab fa-linkedin-in fa-2x" style="color:rgb(96, 23, 114);"></i>
+                                        </a>
+                                        <a href="https://github.com/FSA2022/" target="_blank" class="text-white me-4">
+                                            <i class="fab fa-github fa-2x" style="color:black;"></i>
+                                        </a>
+                                        <a href="https://facebook.com/franciscoalmiron2012" target="_blank" class="text-white me-4">
+                                            <i class="fab fa-facebook-f fa-2x" style="color:rgb(36, 36, 202);"></i>
+                                        </a>
+                                        <a href="https://api.whatsapp.com/send?phone=542974394047" target="_blank" class="text-white ">
+                                            <i class="fab fa-whatsapp fa-2x" style="color:rgb(4, 168, 4);"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
